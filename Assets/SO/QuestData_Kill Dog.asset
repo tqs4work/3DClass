@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questId: 2
   questName: Kill Dog
-  description: 
+  description: dasda
   goldReward: 500
   questSteps:
   - description: cay 5 mon

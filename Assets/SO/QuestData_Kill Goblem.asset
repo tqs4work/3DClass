@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questId: 1
   questName: Kill Goblem
-  description: 
+  description: sadas
   goldReward: 100
   questSteps: []

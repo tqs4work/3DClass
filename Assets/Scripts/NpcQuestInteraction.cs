@@ -6,15 +6,16 @@ public class NpcQuestInteraction : MonoBehaviour
 
     public void OnInteract()
     {
-        //PlayerQuests.Instance.StartQuest(questData);
-        Debug.Log($"Started quest: ");
+        PlayerQuests.Instance.AcceptQuest(questData);
+        
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Player"))
         {
             OnInteract();
+            Debug.Log($"Started quest: ");
         }
     }
 }
