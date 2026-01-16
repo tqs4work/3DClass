@@ -19,7 +19,7 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         RenderItems();
-        //slotPrefab.gameObject.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -100,7 +100,7 @@ public class PlayerStats : MonoBehaviour
         {
             for (var i = 0; i < items.Count; i++)
             {
-                if(items[i].itemdata == item) continue;
+                if (items[i].itemdata != item) continue;
                 if (items[i].amount >=  item.maxStack) continue;
                 var spaceLeft = item.maxStack - items[i].amount;
                 var toAdd = Mathf.Min(spaceLeft, amount);
@@ -140,7 +140,7 @@ public class PlayerStats : MonoBehaviour
             if (i < items.Count)
             {
                 var item = items[i];
-                iconImg.sprite = item.itemdata.icon;
+                iconImg.sprite = item.itemdata.itemIcon;
                 if (item.itemdata.isStackable && item.amount > 1)
                 {
                     amountText.text = item.amount.ToString();

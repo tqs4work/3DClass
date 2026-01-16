@@ -23,5 +23,4 @@ public class itemdata : ScriptableObject
     [Header("Equipment Properties")]
     public int attackBonus;
     public int defenseBonus;
-    internal Sprite icon;
 }

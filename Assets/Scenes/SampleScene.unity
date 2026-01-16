@@ -311,7 +311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 40755898}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.005102074, y: -0.988357, z: 0.14821209, w: 0.034023337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotPrefab: {fileID: 1020623873}
-  maxSlots: 10
+  maxSlots: 91
   items:
   - itemdata: {fileID: 11400000, guid: 889ae40186049d043b2ae0a32f0b2e7a, type: 2}
     amount: 55
@@ -1814,7 +1814,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549464811}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.008312754, y: -0.96979564, z: 0.2414804, w: 0.03338438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3108,7 +3108,7 @@ GameObject:
   - component: {fileID: 1020623874}
   - component: {fileID: 1020623873}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3732,7 +3732,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270363691}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.011711908, y: -0.93971497, z: 0.3402237, w: 0.03234888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

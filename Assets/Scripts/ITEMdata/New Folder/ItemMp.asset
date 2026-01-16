@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Mp Potion
   itemType: 1
-  itemIcon: {fileID: 21300000, guid: 9f853dd8a1f634e7b9f00cd663666d24, type: 3}
+  itemIcon: {fileID: 21300000, guid: e924d68507a514006bb1259fc6f55c86, type: 3}
   prefab: {fileID: 0}
   isStackable: 1
   maxStack: 99
-  hpRestoreAmount: 44
+  hpRestoreAmount: 0
   mpRestoreAmount: 44
   attackBonus: 0
   defenseBonus: 0
