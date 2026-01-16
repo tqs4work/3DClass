@@ -10,10 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41d0048343749134d82a654a2ed1b254, type: 3}
-  m_Name: QuestData_Kill Goblem
+  m_Name: QuestData_Kill Goblem 1
   m_EditorClassIdentifier: 
-  questId: 1
-  questName: Kill Goblem
+  questId: 2
+  questName: Kill Dog
   description: 
-  goldReward: 100
-  questSteps: []
+  goldReward: 500
+  questSteps:
+  - description: cay 5 mon
+    objectType: 0
+    targetId: 2
+    requiredAmount: 10
+    currentAmount: 0
