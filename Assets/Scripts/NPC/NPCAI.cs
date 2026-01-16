@@ -32,7 +32,7 @@ public class NPCAI : MonoBehaviour
 
         initialPosition = transform;
         currentdestination = transform.position;
-        npcNameText.text = "";
+        //npcNameText.text = "";
     }
     private bool isVisible = false;
     private void OnBecameVisible()

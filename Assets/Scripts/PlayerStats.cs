@@ -36,15 +36,15 @@ public class PlayerStats : MonoBehaviour
             DropItem(item);
         }
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        var itemPickup = other.GetComponent<PickupItem>();
-        if(itemPickup != null)
-        {
-            PickItem(itemPickup.itemdata, itemPickup.amount);
-            Destroy(other.gameObject);
-        }
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    var itemPickup = other.GetComponent<PickupItem>();
+    //    if(itemPickup != null)
+    //    {
+    //        PickItem(itemPickup.itemdata, itemPickup.amount);
+    //        Destroy(other.gameObject);
+    //    }
+    //}
 
     void UseItemAt(int index)
     {
